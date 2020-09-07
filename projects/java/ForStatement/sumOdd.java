@@ -3,9 +3,7 @@ package ForStatement;
 public class sumOdd {
     public static boolean isOdd(int number){
         if (number > 0){
-            if (number % 2 != 0){
-                return true;
-            }
+            return number % 2 != 0;
         }
         return false;
     }
